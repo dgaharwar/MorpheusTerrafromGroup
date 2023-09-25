@@ -9,5 +9,5 @@ terraform {
 
 provider "morpheus" {
   url   = var.morpheus_url
-  token = var.morpheus_token
+  token = var.access_token
 }
